@@ -1,0 +1,844 @@
+/*=========================*/
+/* Estilos Globais */
+/*=========================*/
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d3d0d0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Georgia', serif;
+}
+
+p,
+label {
+    margin: 15px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 5px 0;
+}
+
+/*=========================*/
+/* Estilo do Header */
+/*=========================*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(63, 63, 196);
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow:
+        inset 0 8px 30px rgba(142, 73, 221, 0.445),
+        inset 0 -8px 40px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid #7770df;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.usuario {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.usuario>img {
+    height: 40px;
+    width: 40px;
+}
+
+.usuario>a {
+    display: flex;
+    flex-direction: column;
+    /* Organiza a imagem e o texto em coluna */
+    align-items: center;
+    /* Centraliza os elementos dentro do link */
+    text-decoration: none;
+    /* Remove o sublinhado do link */
+}
+
+.usuario>a>label {
+    margin-top: 10px;
+    /* Adiciona espaço entre a imagem e o texto */
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+img:hover {
+    filter: brightness(1.05);
+}
+
+
+.titulo {
+    text-align: center;
+}
+
+.tituloHeader {
+    margin: 0px;
+    padding-left: 15px;
+}
+
+
+
+#usuarioLogado {
+    margin: 0px;
+    text-align: center;
+}
+
+
+.usuario {
+    padding: 0px;
+}
+
+/*=========================*/
+/* Estilo da Navegação */
+/*=========================*/
+nav {
+    width: 100%;
+    background-color: #333;
+}
+
+.subMenu_Principal {
+    padding: 0px;
+}
+
+.subMenu_Conteúdo,
+.subMenu_Empresa,
+.subMenu_Noticias,
+.subMenu_Servicos,
+.subMenu_Cadastro,
+.subMenu_Login {
+    padding: 0px;
+}
+
+.menuPrincipal {
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+    box-shadow:
+        inset 0 8px 20px rgba(0, 0, 0, 0.3),
+        inset 0 -8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.menuPrincipal>li {
+    position: relative;
+    display: inline-block;
+
+    cursor: pointer;
+    transition: background-color 0.5s;
+    text-align: center;
+
+
+
+    padding: 15px 30px;
+    text-decoration: none;
+
+    color: white;
+}
+
+.menuPrincipal>li:hover {
+    background-color: #555;
+}
+
+.menuPrincipal>li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/*=========================*/
+/* Submenu */
+/*=========================*/
+.subMenu_Noticias,
+.subMenu_Conteúdo,
+.subMenu_Servicos,
+.subMenu_Empresa {
+    display: none;
+    position: absolute;
+    background-color: #666;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.subMenu_Noticias,
+.subMenu_Empresa {
+    padding: 0px 7px;
+}
+
+.subMenu_Conteúdo,
+.subMenu_Servicos {
+    padding: 0px 0px;
+}
+
+.subMenu_Noticias li,
+.subMenu_Conteúdo li,
+.subMenu_Servicos li,
+.subMenu_Empresa li {
+    padding: 10px 20px;
+    color: white;
+}
+
+.subMenu_Noticias li:hover,
+.subMenu_Conteúdo li:hover,
+.subMenu_Servicos li:hover,
+.subMenu_Empresa li:hover {
+    background-color: #555;
+}
+
+.menuPrincipal>li:hover .subMenu_Noticias,
+.menuPrincipal>li:hover .subMenu_Conteúdo,
+.menuPrincipal>li:hover .subMenu_Servicos,
+.menuPrincipal>li:hover .subMenu_Empresa {
+    display: block;
+}
+
+/*=========================*/
+/* Estilos do Conteúdo */
+/*=========================*/
+main {
+    padding-left: 20px;
+}
+
+.materia {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.materia img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5%;
+}
+
+.div>blockquote {
+    color: #9b9999;
+}
+
+.conteudo {
+    background-color: #ebeaea;
+    padding: 15px 35px 35px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*=========================*/
+/* Estilos do Cadastros*/
+/*=========================*/
+
+.divCadastro {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+
+    background-color: #ebeaea;
+    padding: 15px 0px 55px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#authors {
+    margin: 25px;
+}
+
+
+
+.tabela-cadastros {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabela-cadastros tr:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Cor para linhas pares */
+}
+
+.tabela-cadastros tr:nth-child(odd) {
+    background-color: #ffffff;
+    /* Cor para linhas ímpares */
+}
+
+.dadoExcluirTopo,
+.dadoIDTopo,
+.dadoNomeTopo,
+.dadoDepartamentoTopo,
+.dadoEnderecoTopo,
+.dadoEmailTopo {
+
+    background-color: #333;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dadoID:hover,
+.dadoNome:hover,
+.dadoDepartamento:hover,
+.dadoEndereco:hover,
+.dadoEmail:hover {
+    background-color: #ccc
+}
+
+.dadoExcluir,
+.dadoID,
+.dadoNome,
+.dadoDepartamento,
+.dadoEndereco,
+.dadoEmail {
+    padding: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#authors {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*=========================*/
+/* Botões e Imagens */
+/*=========================*/
+#dianteira,
+#traseira,
+#interior {
+    width: 100%;
+    max-width: 1085px;
+    height: auto;
+    box-shadow: 0 2px 8px rgb(102, 102, 102);
+}
+
+#especialistaFord,
+#whatsapp {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#especialistaFord {
+    background-color: #007BFF;
+}
+
+#whatsapp {
+    padding: 15px 53px;
+    background-color: #049622;
+}
+
+#especialistaFord:hover {
+    background-color: #0056b3;
+}
+
+.imagem:hover {
+    filter: brightness(0.8);
+}
+
+/*=========================*/
+/* Login */
+/*=========================*/
+
+.login {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #ebeaea;
+    padding: 15px 0px 55px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#emailLogin,
+#senhaLogin {
+    padding: 3px 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#emailLogin:hover,
+#senhaLogin:hover {
+    background-color: #d8d8d8;
+}
+
+#criarConta,
+#confirmarConta {
+    padding: 7px 9px 7px;
+}
+
+/*=========================*/
+/* Estilos do Criar Conta */
+/*=========================*/
+
+.criarConta {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #ebeaea;
+    padding: 15px 0px 55px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cadastroNome,
+#cadastroEmail,
+#cadastroSobrenome {
+    padding: 3px 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#dataNascimento {
+    padding: 3px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#cadastroSenha,
+#cadastroConfirmaSenha {
+    padding: 3px 10px;
+}
+
+#voltarCadastro,
+#confirmaCadastro {
+    padding: 7px 9px 7px;
+    margin-top: 10px;
+}
+
+.buttonCadastro {
+    margin-left: 215px;
+}
+
+#cadastroNome:hover,
+#cadastroEmail:hover,
+#cadastroSobrenome:hover,
+#dataNascimento:hover,
+#cadastroSenha:hover,
+#cadastroConfirmaSenha:hover,
+#masculino:hover,
+#feminino:hover {
+    background-color: #d8d8d8;
+}
+
+/*===============================*/
+/* Estilos do Criar Conta Custom */
+/*===============================*/
+
+.criarContaCustom {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: dimgray;
+    padding: 15px 0px 55px;
+    border: 1px solid powderblue;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cadastroNome,
+#cadastroEmail,
+#cadastroSobrenome {
+    padding: 3px 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#dataNascimento {
+    padding: 3px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#cadastroSenha,
+#cadastroConfirmaSenha {
+    padding: 3px 10px;
+}
+
+#voltarCadastro,
+#confirmaCadastro {
+    padding: 7px 9px 7px;
+    margin-top: 10px;
+}
+
+.buttonCadastro {
+    margin-left: 215px;
+}
+
+#cadastroNome:hover,
+#cadastroEmail:hover,
+#cadastroSobrenome:hover,
+#dataNascimento:hover,
+#cadastroSenha:hover,
+#cadastroConfirmaSenha:hover,
+#masculino:hover,
+#feminino:hover {
+    background-color: gray;
+}
+
+/*=========================*/
+/* Estilos do Footer */
+/*=========================*/
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 01px 0;
+    box-shadow:
+        inset 0 8px 20px rgba(0, 0, 0, 0.3),
+        inset 0 -8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/*=========================*/
+/* Estilos Responsivos */
+/*=========================*/
+@media (max-width: 900px) {
+
+    p,
+    td,
+    ul,
+    li,
+    tr {
+        font-size: small;
+    }
+
+    h1 {
+        font-size: larger;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logoHeader {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logoUsuarioHeader {
+        width: 30px;
+        height: 30px;
+    }
+
+    #usuarioLogado {
+        margin: 0px;
+        text-align: center;
+        font-size: small;
+    }
+
+    .tituloHeader {
+        font-size: larger;
+    }
+
+    .menuPrincipal {
+        font-size: small;
+    }
+
+    #authors {
+        margin: 10px;
+    }
+
+    footer {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 663px) {
+    .materia {
+        display: block;
+        margin: 0 50px auto;
+    }
+
+    button {
+        height: 20px;
+    }
+
+    .logoHeader {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logoUsuarioHeader {
+        width: 20px;
+        height: 20px;
+    }
+
+    #usuarioLogado {
+        margin: 0px;
+        text-align: center;
+        font-size: small;
+    }
+
+    p,
+    td,
+    ul,
+    li,
+    tr,
+    a,
+    button,
+    h4,
+    blockquote {
+        font-size: smaller;
+    }
+
+    #especialistaFord,
+    #whatsapp {
+        padding: 5px;
+        margin: 3px;
+        font-size: small;
+    }
+
+    .menuPrincipal>li {
+        padding: 10px 20px;
+    }
+
+    .menuPrincipal {
+
+        font-size: smaller;
+    }
+
+    #authors {
+        margin: 10px;
+    }
+
+}
+
+
+@media (max-width: 485px) {
+    .tituloHeader {
+        font-size: medium;
+    }
+
+    td,
+    tr {
+        font-size: xx-small;
+    }
+
+    .imagemLixo {
+        height: 5px;
+        width: 5px;
+    }
+
+    .dadoExcluir {
+        height: 5px;
+        width: 5px;
+    }
+
+    .logoHeader {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logoUsuarioHeader {
+        width: 15px;
+        height: 15px;
+    }
+
+    #usuarioLogado {
+        margin: 0px;
+        text-align: center;
+        font-size: smaller;
+    }
+
+    .menuPrincipal {
+        font-size: x-small;
+    }
+
+    p,
+    ul,
+    li,
+    a,
+    button,
+    h4,
+    blockquote {
+        font-size: x-small;
+    }
+
+    #especialistaFord,
+    #whatsapp {
+        padding: 5px;
+        margin: 3px;
+        font-size: small;
+    }
+
+    .menuPrincipal>li {
+        padding: 5px 8px;
+    }
+
+    main {
+        padding: 5px;
+    }
+
+    .materia {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .conteudo {
+        padding: 15px;
+    }
+
+    .menuPrincipal {
+
+        font-size: smaller;
+    }
+
+    #authors {
+        margin: 10px;
+    }
+
+    footer {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 333px) {
+
+    .menuPrincipal>li {
+        padding: 3px 4px;
+    }
+
+    main {
+        padding-top: 0px;
+    }
+
+    .materia {
+        padding: 5px;
+        margin: 3px;
+    }
+}
+
+@media (max-width: 286px) {
+    .menuPrincipal>li {
+        padding: 1px 2px;
+    }
+}
+
+@media (max-width: 265px) {
+    .menuPrincipal {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1px;
+    }
+
+    .menuPrincipal>li {
+        text-align: center;
+        padding: 1px;
+
+    }
+
+    footer {
+        font-size: xx-small;
+    }
+
+    #especialistaFord,
+    #whatsapp {
+        padding: 5px;
+        margin: 3px;
+        font-size: xx-small;
+    }
+
+    p,
+    ul,
+    li,
+    a,
+    button,
+    h4,
+    blockquote {
+        font-size: xx-small;
+    }
+
+    td,
+    tr {
+        font-size: xx-small;
+    }
+
+    .tituloHeader {
+        font-size: small;
+    }
+
+    .logoHeader {
+        width: 20px;
+        height: 20px;
+    }
+
+    .logoUsuarioHeader {
+        width: 10px;
+        height: 10px;
+    }
+
+    #usuarioLogado {
+        margin: 0px;
+        text-align: center;
+        font-size: x-small;
+    }
+
+    h1 {
+        font-size: small;
+    }
+
+    .conteudo {
+        padding: 5px;
+    }
+
+    blockquote {
+        margin: 10px;
+    }
+
+    #authors {
+        margin: 5px;
+    }
+}
