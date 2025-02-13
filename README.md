@@ -3,6 +3,8 @@ Repositório dos Cursos de Programação WEB I
 
 Repositório referente a projetos academicos de Desenvolvimento WEB.
 
+<a href = "https://cdranka25.github.io/Desenvolvimento_WEB/README.md"> README (Repositório Desenvolvimento WEB) </a>
+<br><br>
 <a href = "https://cdranka25.github.io/Desenvolvimento_WEB/Projeto01_Wordle/pagina01.html"> Projeto Wordle (Jogo de palavras) </a><br>
 <a href = "https://cdranka25.github.io/Desenvolvimento_WEB/Projeto01_Wordle/README.txt"> README (Projeto Wordle) </a>
 <br><br>
