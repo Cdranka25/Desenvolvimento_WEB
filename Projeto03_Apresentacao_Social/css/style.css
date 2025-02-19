@@ -8,7 +8,7 @@
 
 html,
 body {
-    height: 100vh;
+    height: 105vh;
     width: 100vw;
     background-color: black;
 }
@@ -26,6 +26,8 @@ body {
 }
 
 section#telefone {
+    margin-top: 15px;
+    margin-bottom: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -63,4 +65,12 @@ iframe#tela {
     left: 22px;
     width: 267px;
     height: 471px;
+}
+
+section#texto{
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 15px;
+    font-size: large;
+    color: white;
 }
