@@ -107,3 +107,46 @@ button:hover {
         margin-bottom: 10px;
     }
 }
+
+@media (max-width: 500px) {
+        .search-box {
+            flex-direction: column;
+        }
+
+        #search_city{
+            width: 94%;
+        }
+}
+
+@media (max-width: 440px) {
+
+    .container{
+        width: 85%;
+    }
+    h1, h2, p {
+        font-size: xx-large;
+    }
+
+    .search-box {
+        flex-direction: column;
+    }
+
+    #search_city{
+        width: 94%;
+    }
+}
+
+@media (max-width: 407px) {
+    h1, h2, p {
+        font-size: x-large;
+    }
+}
+
+@media (max-width: 310px) {
+    h1, h2, p {
+        font-size: large;
+    }
+    .container{
+        width: 80%;
+    }
+}
