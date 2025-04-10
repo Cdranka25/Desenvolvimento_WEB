@@ -4,11 +4,12 @@ body {
     background: linear-gradient(135deg, #74ebd5, #ACB6E5);
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    overflow: auto; 
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .container {
@@ -19,8 +20,8 @@ body {
     text-align: center;
     width: 90%;
     max-width: 400px;
-    max-height: 85vh; 
-    overflow: auto; 
+    max-height: 85vh;
+    overflow: auto;
 }
 
 h1 {
@@ -100,6 +101,7 @@ button:hover {
     .container {
         width: 100%;
         padding: 1rem;
+        overflow: auto;
     }
 
     input, button {
@@ -109,20 +111,20 @@ button:hover {
 }
 
 @media (max-width: 500px) {
-        .search-box {
-            flex-direction: column;
-        }
+    .search-box {
+        flex-direction: column;
+    }
 
-        #search_city{
-            width: 94%;
-        }
+    #search_city {
+        width: 94%;
+    }
 }
 
 @media (max-width: 440px) {
-
-    .container{
+    .container {
         width: 85%;
     }
+
     h1, h2, p {
         font-size: xx-large;
     }
@@ -131,7 +133,7 @@ button:hover {
         flex-direction: column;
     }
 
-    #search_city{
+    #search_city {
         width: 94%;
     }
 }
@@ -146,7 +148,8 @@ button:hover {
     h1, h2, p {
         font-size: large;
     }
-    .container{
+
+    .container {
         width: 80%;
     }
 }
