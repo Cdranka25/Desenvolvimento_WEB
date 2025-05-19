@@ -7,6 +7,6 @@ Repositório referente a projetos academicos de Desenvolvimento WEB.
 <br><br>
 <a href = "https://cdranka25.github.io/Desenvolvimento_WEB/Projeto02_Tela_com_Login_e_RecebimentoDeCadastros/html/02_paginaPrincipal.html"> Projeto Jornal Blumenau (Página que simula site de notícias) </a>
 <br><br>
-<a href = "https://cdranka25.github.io/Desenvolvimento_WEB/Projeto03_Wordle/pagina01.html"> Projeto Wordle (Jogo de palavras) </a>
+<a href = "https://cdranka25.github.io/Desenvolvimento_WEB/Projeto03_Wordle/html/pagina01.html"> Projeto Wordle (Jogo de palavras) </a>
 <br><br>
 <a href = "https://cdranka25.github.io/Desenvolvimento_WEB/Projeto04_Previsao_do_Tempo/html/index.html"> Projeto Previsão do Tempo (Página que simula site de previsão do tempo) </a>
