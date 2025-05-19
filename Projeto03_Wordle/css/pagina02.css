@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     height: calc(100vh - 148px);
+    min-height: 600px;
 }
 
 .divCentralizado {
@@ -147,5 +148,11 @@
         height: auto;
         align-items: center;
         padding: 20px;
+
+    }
+
+    .divCentralizado {
+        height: auto;
+
     }
 }
