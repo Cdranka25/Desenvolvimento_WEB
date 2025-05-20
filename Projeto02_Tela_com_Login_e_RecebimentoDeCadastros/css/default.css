@@ -109,9 +109,7 @@ img:hover {
 }
 
 
-.titulo {
-    text-align: center;
-}
+
 
 .tituloHeader {
     margin: 0px;
@@ -236,116 +234,6 @@ nav {
 }
 
 /*=========================*/
-/* Estilos do Conteúdo */
-/*=========================*/
-main {
-    padding-left: 20px;
-}
-
-.materia {
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 20px;
-    text-align: justify;
-}
-
-.materia img {
-    display: block;
-    margin: 20px auto;
-    width: 100%;
-    height: auto;
-    border-radius: 0.5%;
-}
-
-.div>blockquote {
-    color: #9b9999;
-}
-
-.conteudo {
-    background-color: #ebeaea;
-    padding: 15px 35px 35px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/*=========================*/
-/* Estilos do Cadastros*/
-/*=========================*/
-
-.divCadastro {
-    width: 100%;
-    max-width: 1300px;
-    margin: auto;
-
-    background-color: #ebeaea;
-    padding: 15px 0px 55px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#authors {
-    margin: 25px;
-}
-
-
-
-.tabela-cadastros {
-    width: 100%;
-    max-width: 1000px;
-    margin: 20px auto;
-    border-collapse: collapse;
-}
-
-.tabela-cadastros tr:nth-child(even) {
-    background-color: #f2f2f2;
-    /* Cor para linhas pares */
-}
-
-.tabela-cadastros tr:nth-child(odd) {
-    background-color: #ffffff;
-    /* Cor para linhas ímpares */
-}
-
-.dadoExcluirTopo,
-.dadoIDTopo,
-.dadoNomeTopo,
-.dadoDepartamentoTopo,
-.dadoEnderecoTopo,
-.dadoEmailTopo {
-
-    background-color: #333;
-    color: white;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.dadoID:hover,
-.dadoNome:hover,
-.dadoDepartamento:hover,
-.dadoEndereco:hover,
-.dadoEmail:hover {
-    background-color: #ccc
-}
-
-.dadoExcluir,
-.dadoID,
-.dadoNome,
-.dadoDepartamento,
-.dadoEndereco,
-.dadoEmail {
-    padding: 1px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-#authors {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-/*=========================*/
 /* Botões e Imagens */
 /*=========================*/
 #dianteira,
@@ -387,147 +275,6 @@ main {
     filter: brightness(0.8);
 }
 
-/*=========================*/
-/* Login */
-/*=========================*/
-
-.login {
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
-    background-color: #ebeaea;
-    padding: 15px 0px 55px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#emailLogin,
-#senhaLogin {
-    padding: 3px 100px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#emailLogin:hover,
-#senhaLogin:hover {
-    background-color: #d8d8d8;
-}
-
-#criarConta,
-#confirmarConta {
-    padding: 7px 9px 7px;
-}
-
-/*=========================*/
-/* Estilos do Criar Conta */
-/*=========================*/
-
-.criarConta {
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
-    background-color: #ebeaea;
-    padding: 15px 0px 55px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#cadastroNome,
-#cadastroEmail,
-#cadastroSobrenome {
-    padding: 3px 100px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#dataNascimento {
-    padding: 3px 20px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#cadastroSenha,
-#cadastroConfirmaSenha {
-    padding: 3px 10px;
-}
-
-#voltarCadastro,
-#confirmaCadastro {
-    padding: 7px 9px 7px;
-    margin-top: 10px;
-}
-
-.buttonCadastro {
-    margin-left: 215px;
-}
-
-#cadastroNome:hover,
-#cadastroEmail:hover,
-#cadastroSobrenome:hover,
-#dataNascimento:hover,
-#cadastroSenha:hover,
-#cadastroConfirmaSenha:hover,
-#masculino:hover,
-#feminino:hover {
-    background-color: #d8d8d8;
-}
-
-/*===============================*/
-/* Estilos do Criar Conta Custom */
-/*===============================*/
-
-.criarContaCustom {
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
-    background-color: dimgray;
-    padding: 15px 0px 55px;
-    border: 1px solid powderblue;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#cadastroNome,
-#cadastroEmail,
-#cadastroSobrenome {
-    padding: 3px 100px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#dataNascimento {
-    padding: 3px 20px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#cadastroSenha,
-#cadastroConfirmaSenha {
-    padding: 3px 10px;
-}
-
-#voltarCadastro,
-#confirmaCadastro {
-    padding: 7px 9px 7px;
-    margin-top: 10px;
-}
-
-.buttonCadastro {
-    margin-left: 215px;
-}
-
-#cadastroNome:hover,
-#cadastroEmail:hover,
-#cadastroSobrenome:hover,
-#dataNascimento:hover,
-#cadastroSenha:hover,
-#cadastroConfirmaSenha:hover,
-#masculino:hover,
-#feminino:hover {
-    background-color: gray;
-}
 
 /*=========================*/
 /* Estilos do Footer */
@@ -543,9 +290,34 @@ footer {
         inset 0 -8px 20px rgba(0, 0, 0, 0.3);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=========================*/
 /* Estilos Responsivos */
 /*=========================*/
+
+/*
 @media (max-width: 900px) {
 
     p,
@@ -841,4 +613,4 @@ footer {
     #authors {
         margin: 5px;
     }
-}
+}*/

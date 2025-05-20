@@ -1,0 +1,28 @@
+
+.login {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #ebeaea;
+    padding: 15px 0px 55px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#emailLogin,
+#senhaLogin {
+    padding: 3px 100px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#emailLogin:hover,
+#senhaLogin:hover {
+    background-color: #d8d8d8;
+}
+
+#criarConta,
+#confirmarConta {
+    padding: 7px 9px 7px;
+}
