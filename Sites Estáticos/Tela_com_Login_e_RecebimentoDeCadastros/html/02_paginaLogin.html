@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-nr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="shortcut icon" href="../img/logo/logoBranco.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/default.css">
+    <link rel="stylesheet" href="../css/02_pagina_Login.css">
+
+    <script src="../js/CarregaHtml.js"></script>
+    <script src="../js/functionLogin.js"></script>
+</head>
+
+<body>
+    <div id="header-placeholder"></div>
+    <hr>
+
+
+    <main>
+        <div class="container">
+            <div class="login">
+                <h1>Login</h1>
+                <div class="dadosLogin">
+                    <input type="email" name="emailLogin" id="emailLogin" placeholder="Insira seu Email" autofocus> <br>
+                    <input type="password" name="senha" id="senhaLogin" placeholder="Insira sua Senha"> <br>
+
+                </div>
+                <a href="03_paginaCriacaoDeConta.html"><button id="criarConta">Criar Conta</button></a>
+
+                <a><button id="confirmarConta" onclick="login()">Confirmar</button></a>
+
+
+            </div>
+        </div>
+    </main>
+
+    <div id="footer-placeholder"></div>
+</body>
+
+</html>
