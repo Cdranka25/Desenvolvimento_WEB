@@ -1,0 +1,71 @@
+.divCadastro {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+
+    background-color: #ebeaea;
+    padding: 15px 0px 55px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#authors {
+    margin: 25px;
+}
+
+
+
+.tabela-cadastros {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabela-cadastros tr:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Cor para linhas pares */
+}
+
+.tabela-cadastros tr:nth-child(odd) {
+    background-color: #ffffff;
+    /* Cor para linhas ímpares */
+}
+
+.dadoExcluirTopo,
+.dadoIDTopo,
+.dadoNomeTopo,
+.dadoDepartamentoTopo,
+.dadoEnderecoTopo,
+.dadoEmailTopo {
+
+    background-color: #333;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dadoID:hover,
+.dadoNome:hover,
+.dadoDepartamento:hover,
+.dadoEndereco:hover,
+.dadoEmail:hover {
+    background-color: #ccc
+}
+
+.dadoExcluir,
+.dadoID,
+.dadoNome,
+.dadoDepartamento,
+.dadoEndereco,
+.dadoEmail {
+    padding: 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#authors {
+    padding-left: 0px;
+    padding-right: 0px;
+}

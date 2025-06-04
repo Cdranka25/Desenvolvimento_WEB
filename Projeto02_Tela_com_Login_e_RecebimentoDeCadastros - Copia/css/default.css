@@ -1,0 +1,226 @@
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d3d0d0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Georgia', serif;
+}
+
+p,
+label {
+    margin: 15px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+
+/* Estilo do Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(63, 63, 196);
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow:
+        inset 0 8px 30px rgba(142, 73, 221, 0.445),
+        inset 0 -8px 40px rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid #7770df;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.usuario {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.usuario>img {
+    height: 40px;
+    width: 40px;
+}
+
+.usuario>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.usuario>a>label {
+    margin-top: 10px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+img:hover {
+    filter: brightness(1.05);
+}
+
+.tituloHeader {
+    margin: 0px;
+    padding-left: 15px;
+}
+
+#usuarioLogado {
+    margin: 0px;
+    text-align: center;
+}
+
+.usuario {
+    padding: 0px;
+}
+
+
+/* Estilo da Navegação */
+nav {
+    width: 100%;
+    background-color: #333;
+}
+
+
+.menuPrincipal {
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+    display: flex;
+    box-shadow:
+        inset 0 8px 20px rgba(0, 0, 0, 0.3),
+        inset 0 -8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.menuPrincipal>li {
+    position: relative;
+    display: inline-block;
+
+    cursor: pointer;
+    transition: background-color 0.5s;
+    text-align: center;
+
+
+
+    padding: 15px 30px;
+    text-decoration: none;
+
+    color: white;
+}
+
+.menuPrincipal>li:hover {
+    background-color: #555;
+}
+
+.menuPrincipal>li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* Submenu */
+
+.subMenu_Principal {
+    padding: 0px;
+}
+
+.subMenu_Conteúdo,
+.subMenu_Empresa,
+.subMenu_Noticias,
+.subMenu_Servicos,
+.subMenu_Cadastro,
+.subMenu_Login {
+    padding: 0px;
+}
+
+.subMenu_Noticias,
+.subMenu_Conteúdo,
+.subMenu_Servicos,
+.subMenu_Empresa {
+    display: none;
+    position: absolute;
+    background-color: #666;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.subMenu_Noticias,
+.subMenu_Empresa {
+    padding: 0px 7px;
+}
+
+.subMenu_Conteúdo,
+.subMenu_Servicos {
+    padding: 0px 0px;
+}
+
+.subMenu_Noticias li,
+.subMenu_Conteúdo li,
+.subMenu_Servicos li,
+.subMenu_Empresa li {
+    padding: 10px 20px;
+    color: white;
+}
+
+.subMenu_Noticias li:hover,
+.subMenu_Conteúdo li:hover,
+.subMenu_Servicos li:hover,
+.subMenu_Empresa li:hover {
+    background-color: #555;
+}
+
+.menuPrincipal>li:hover .subMenu_Noticias,
+.menuPrincipal>li:hover .subMenu_Conteúdo,
+.menuPrincipal>li:hover .subMenu_Servicos,
+.menuPrincipal>li:hover .subMenu_Empresa {
+    display: block;
+}
+
+/*=========================*/
+/* Estilos do Footer */
+/*=========================*/
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 01px 0;
+    box-shadow:
+        inset 0 8px 20px rgba(0, 0, 0, 0.3),
+        inset 0 -8px 20px rgba(0, 0, 0, 0.3);
+}
+

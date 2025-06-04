@@ -1,13 +1,4 @@
-.criarConta {
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
-    background-color: #ebeaea;
-    padding: 15px 0px 55px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+
 
 #cadastroNome,
 #cadastroEmail,
@@ -47,59 +38,4 @@
 #masculino:hover,
 #feminino:hover {
     background-color: #d8d8d8;
-}
-
-/*===============================*/
-/* Estilos do Criar Conta Custom */
-/*===============================*/
-
-.criarContaCustom {
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
-    background-color: dimgray;
-    padding: 15px 0px 55px;
-    border: 1px solid powderblue;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-#cadastroNome,
-#cadastroEmail,
-#cadastroSobrenome {
-    padding: 3px 100px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#dataNascimento {
-    padding: 3px 20px;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#cadastroSenha,
-#cadastroConfirmaSenha {
-    padding: 3px 10px;
-}
-
-#voltarCadastro,
-#confirmaCadastro {
-    padding: 7px 9px 7px;
-    margin-top: 10px;
-}
-
-.buttonCadastro {
-    margin-left: 215px;
-}
-
-#cadastroNome:hover,
-#cadastroEmail:hover,
-#cadastroSobrenome:hover,
-#dataNascimento:hover,
-#cadastroSenha:hover,
-#cadastroConfirmaSenha:hover,
-#masculino:hover,
-#feminino:hover {
-    background-color: gray;
 }

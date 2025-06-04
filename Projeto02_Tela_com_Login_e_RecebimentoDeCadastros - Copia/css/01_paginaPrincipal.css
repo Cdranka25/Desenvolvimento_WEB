@@ -6,10 +6,18 @@
 
     background-color: #ebeaea;
     padding: 15px 35px 35px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
+.materia img {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5%;
+}
 
 .titulo {
     text-align: center;
@@ -21,18 +29,11 @@
 }
 
 /* Botões e Imagens */
-.materia img {
-    display: block;
-    margin: 20px auto;
+ .img{
     width: 100%;
-    height: auto;
     max-width: 1085px;
-    border-radius: 1.5%;
-        box-shadow: 0 2px 8px rgb(102, 102, 102);
-}
-
-.imagem:hover {
-    filter: brightness(0.8);
+    height: auto;
+    box-shadow: 0 2px 8px rgb(102, 102, 102);
 }
 
 #especialistaFord,
@@ -61,3 +62,6 @@
     background-color: #0056b3;
 }
 
+.imagem:hover {
+    filter: brightness(0.8);
+}
